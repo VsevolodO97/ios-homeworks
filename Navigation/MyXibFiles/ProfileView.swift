@@ -10,5 +10,9 @@ import UIKit
 
 class ProfileView: UIView {
 
-
+    @IBOutlet weak var ownersPhoto: UIImageView!
+    @IBOutlet weak var nameOfOwner: UILabel!
+    @IBOutlet weak var dateOfBirth: UILabel!
+    @IBOutlet weak var cityOfOwner: UILabel!
+    @IBOutlet weak var aboutOwnerText: UITextView!
 }
