@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 class ProfileView: UIView {
-
     @IBOutlet weak var ownersPhoto: UIImageView!
     @IBOutlet weak var nameOfOwner: UILabel!
     @IBOutlet weak var dateOfBirth: UILabel!
